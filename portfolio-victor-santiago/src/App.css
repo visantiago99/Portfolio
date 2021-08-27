@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+body {
+  background: linear-gradient(90deg, #403B4A 0%, #7f5af0 150%);
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .headerContainer {
+  display: flex;
+} */
+.headerClass {
+  background: rgb(26, 28, 43);
+	width: 100%;
+	height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  border: 1px solid gold;
+  border-radius: 3px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 27px;
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  width: 100px;
+  color: #f5d000;
+  transition: 0.5s;
+  border-radius: 0.5em;
+}
+
+.btn:hover {
+  background-color: #f5d000;
+  transform:scale(150%);
+  color:rgb(26, 28, 43)
+}
+
+.imgPerfil {
+  border-radius: 190px;
+  transition: 0.5s;
+}
+
+main {
+  display: flex;
+  padding: 50px;
+}
+
+.title-content {
+  margin-left: 40px;
+  margin-top: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 30px;
+}
+
+.title-content p {
+  margin-top:40px;
+  font-size: 30px;
+}
+
+.title-content h2 {
+  margin-top:60px;
+}
+
+.title {
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  border-right: 3px solid;
+  width: 16ch;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.imgPerfil:hover {
+  transform: scale(100%);
+  border-radius: 10px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+section h2 {
+  margin-bottom: 50px;
+}
+
+.linkProjects {
+  font-size: 40px;
+}
