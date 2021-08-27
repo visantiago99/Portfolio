@@ -105,10 +105,28 @@ main {
   }
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 section h2 {
   margin-bottom: 50px;
+  display: flex;
+}
+
+section img {
+  display: flex;
+  padding: 2px;
+  border: 2px solid white;
+  border-radius: 5%;
+  margin-bottom:10px;
 }
 
 .linkProjects {
   font-size: 40px;
+  margin-bottom: 50px;
 }
