@@ -1,3 +1,9 @@
+@media screen and (max-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,19 +15,14 @@ body {
   background: linear-gradient(90deg, #403B4A 0%, #7f5af0 120%);
 }
 
+a {
+  color: #2cb67d;
+}
+
 .App {
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/* .headerContainer {
-  display: flex;
-} */
 .headerClass {
   background: rgb(26, 28, 43);
 	width: 100%;
@@ -82,10 +83,15 @@ main {
 
 .title {
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  border-right: 3px solid;
+  animation-delay: 0.2s;
+  border-right: 2px solid transparent;
   width: 16ch;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.spanName {
+  color:#f5d000;
 }
 
 .imgPerfil:hover {
@@ -116,14 +122,16 @@ section {
 section h2 {
   margin-bottom: 50px;
   display: flex;
+  margin-left: 20px;
 }
 
 section img {
   display: flex;
-  padding: 2px;
+  padding: 1px;
   border: 2px solid white;
-  border-radius: 5%;
+  border-radius: 2%;
   margin-bottom:10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .linkProjects {

@@ -14,7 +14,7 @@ export default function Home() {
           <img src={perfil} alt="fotoPerfil" width="350px" height="350px" align="center" className="imgPerfil"/>
         </div>
         <div className="title-content">
-          <h1 className="title">Hello there! I'm Victor Santiago</h1>
+          <h1 className="title">Hello there! I'm <span className="spanName">Victor Santiago</span></h1>
           <p>Passionate about technology and all of its vertents since a child, now studying everyday to be a Software Enginer</p>
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>
         </div>
