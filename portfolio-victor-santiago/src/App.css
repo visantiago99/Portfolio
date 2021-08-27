@@ -40,7 +40,7 @@ a {
   background-color: transparent;
   font-family: 'Rajdhani', sans-serif;
   font-size: 15px;
-  border: none;
+  border: 2px solid white;
   width: 100px;
   color: #fffffe;
   transition: 0.5s;
@@ -137,4 +137,27 @@ section img {
 .linkProjects {
   font-size: 40px;
   margin-bottom: 50px;
+}
+
+.divProjects a {
+  text-decoration: none;
+}
+
+.divProjects {
+  font-size: 40px;
+  display: flex;
+}
+
+.divProjects li {
+  list-style: none;
+}
+
+.divProjects a {
+  align-self: flex-start;
+}
+
+.backIcon {
+  font-size: 2em;
+  align-self: flex-start;
+  margin-top: 5px;
 }
