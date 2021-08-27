@@ -29,18 +29,19 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 5px;
-  border: 1px solid gold;
+  border: 1px solid #fffffe;
   border-radius: 3px;
 }
 
 .btn {
   margin-top: 10px;
-  margin-left: 27px;
+  margin-left: 35px;
   background-color: transparent;
-  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
   border: none;
   width: 100px;
-  color: #f5d000;
+  color: #fffffe;
   transition: 0.5s;
   border-radius: 0.5em;
 }
@@ -54,6 +55,8 @@ body {
 .imgPerfil {
   border-radius: 190px;
   transition: 0.5s;
+  border: 2px solid;
+  border-color: white;
 }
 
 main {
