@@ -9,7 +9,6 @@ export default function Projects() {
   return (
     <div>
       <Header />
-      <img src="https://octocat-generator-assets.githubusercontent.com/my-octocat-1628983230728.png" alt="myOcto" width="350px" height="350px" align="right"/>
       <div className="divProjects">
       <Link to='/'><IoCaretBackCircleSharp className='backIcon' /></Link>
         <ul>
@@ -34,6 +33,7 @@ export default function Projects() {
             </h2>
           </li>
         </ul>
+        <img src="https://octocat-generator-assets.githubusercontent.com/my-octocat-1628983230728.png" alt="myOcto" width="350px" height="350px"/>
       </div>
     </div>
   )
