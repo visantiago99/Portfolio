@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="title-content">
           <h1 className="title">Hello there! I'm <span className="spanName">Victor Santiago</span></h1>
-          <p>Passionate about technology and all of its vertents since a child, now studying everyday to be a Software Enginer</p>
+          <p>Passionate about technology and all of its vertents since a child, now studying everyday to be a Software Engineer</p>
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>
         </div>
       </main>

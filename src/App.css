@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   body {
     background-color: lightgreen;
   }
@@ -12,8 +12,24 @@
 }
 
 body {
-  background: linear-gradient(90deg, #393E6F 0%, #7f5af0 120%);
+	background: linear-gradient(-45deg, #16161a, #7f5af0, #2cb67d, #72757e);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 a {
   color: #2cb67d;
@@ -126,7 +142,7 @@ section {
 }
 
 section h2 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   display: flex;
   margin-left: 20px;
 }
@@ -147,6 +163,7 @@ section img {
 
 .divProjects a {
   text-decoration: none;
+  color: white;
 }
 
 .divProjects {
