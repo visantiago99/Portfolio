@@ -17,16 +17,19 @@ export default function Projects() {
               <a href='https://github.com/visantiago99/Recipes-App' target='_blank' rel='noreferrer'>Recipes App <IoPizzaOutline /></a>
             </h2>
           </li>
+          <br />
           <li>
             <h2>
               <a href='https://github.com/visantiago99/Trivia-App-React-Redux' target='_blank' rel='noreferrer'>Trivia App <IoGameControllerOutline /></a>
             </h2>
           </li>
+          <br />
           <li>
             <h2>
               <a href='https://github.com/visantiago99/Wallet-Coin-Converter' target='_blank' rel='noreferrer'>Wallet and Coin Converter App <IoCashOutline /></a>
             </h2>
           </li>
+          <br />
           <li>
             <h2>
               <a href='https://github.com/visantiago99/MYSQL-vocabulary-booster' target='_blank' rel='noreferrer'>MYSQL vocabulary booster <SiMysql /></a>
