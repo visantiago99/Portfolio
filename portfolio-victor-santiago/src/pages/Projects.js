@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import { IoPizzaOutline, IoCaretBackCircleSharp, IoGameControllerOutline, IoCashOutline } from 'react-icons/io5';
+import { SiMysql } from "react-icons/si";
 
 export default function Projects() {
   return (
@@ -25,6 +26,11 @@ export default function Projects() {
           <li>
             <h2>
               <a href='https://github.com/visantiago99/Wallet-Coin-Converter' target='_blank' rel='noreferrer'>Wallet and Coin Converter App <IoCashOutline /></a>
+            </h2>
+          </li>
+          <li>
+            <h2>
+              <a href='https://github.com/visantiago99/MYSQL-vocabulary-booster' target='_blank' rel='noreferrer'>MYSQL vocabulary booster <SiMysql /></a>
             </h2>
           </li>
         </ul>

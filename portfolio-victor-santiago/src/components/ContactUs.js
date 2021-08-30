@@ -19,13 +19,34 @@ export default function ContactUs() {
 
   return (
     <form className="contact-form" onSubmit={sendEmail}>
-      <input type="text" name="name" placeholder='Name' />
-      <input type="email" name="email" placeholder='Email' />
-      <input type="text" name="subject" placeholder='Subject' />
+      <h2>Or you can send your message to my email:</h2>
       <br />
-      <textarea name="message" placeholder='Your message'/>
+      <div className="inpt1">
+      <p>Name:</p>
+      <label className="form-label">
+      <input type="text" name="name" />
+      </label>
+      </div>
       <br />
-      <input type="submit" value="Send" />
+      <div className="inpt1">
+      <p>Email:</p>
+      <label className="form-label">
+      <input type="email" name="email" />
+      </label>
+      </div>
+      <br />
+      <div className="inpt1">
+      <p>Subject:</p>
+      <label className="form-label">
+      <input type="text" name="subject" />
+      </label>
+      </div>
+      <br />
+      <div className="inpt1">
+        <textarea name="message" placeholder='Your message'/>
+      </div>
+      <br />
+      <input type="submit" value="Send" className="btn btn-primary" />
     </form>
   );
 }
