@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import { Link } from 'react-router-dom';
 import perfil from '../images/perfil.JPG';
 import { IoIosApps } from 'react-icons/io';
+import inteligencia from '../images/inteligencia.png';
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <div className="title-content">
           <h1 className="title">Hello there! I'm <span className="spanName">Victor Santiago</span></h1>
           <p>Passionate about technology and all of its vertents since a child, now studying everyday to be a Software Engineer</p>
+          <br />
+          <img src={inteligencia} alt="prop" width="150px" />
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>
         </div>
       </main>
