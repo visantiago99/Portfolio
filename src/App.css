@@ -94,7 +94,7 @@ main {
 }
 
 .title-content h1 {
-  margin-left: 200px;
+  margin-left: 190px;
   margin-bottom: 40px;
 }
 
@@ -107,7 +107,7 @@ main {
 }
 
 .title {
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(22, end), blink .5s step-end infinite alternate;
   animation-delay: 0.2s;
   width: 16ch;
   overflow: hidden;
@@ -128,11 +128,17 @@ main {
   from {
     width: 0
   }
+  to {
+    widht: 100%;
+  }
 }
 
 @keyframes blink {
-  50% {
-    border-color: transparent
+  from {
+    border-color: red;
+  }
+  to {
+    border-color: transparent;
   }
 }
 
