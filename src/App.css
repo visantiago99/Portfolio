@@ -169,10 +169,14 @@ section img {
   font-size: 40px;
   display: flex;
   justify-content: space-between;
+  background-image: url('./images/rocket.svg');
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
 }
 
 .divProjects li {
   list-style: none;
+  margin-left: 360px;
 }
 
 .backIcon {
