@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main>
+      <main className="main-class">
         <div className="picture">
           <img src={perfil} alt="fotoPerfil" width="350px" height="350px" align="center" className="imgPerfil"/>
         </div>
