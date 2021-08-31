@@ -251,7 +251,7 @@ section img {
   }
 
   body {
-    background: linear-gradient(-65deg, #082032, #2C394B, #334756, #FF4C29) no-repeat;
+    background: linear-gradient(-85deg, #082032, #2C394B, #334756, #FF4C29) no-repeat;
     background-size: 120% 120%;
     animation: gradient 7s ease infinite;
     height: 100%;
@@ -309,5 +309,43 @@ section img {
   .linkProjects {
     font-size: 120%;
     margin-bottom: 50px;
+  }
+
+  .project-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divProjects {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('./images/rocket.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 120px 20px;
+  }
+  
+  .divProjects ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 110px 20px;
+  }
+
+  .divProjects li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .divProjects a {
+    text-decoration: none;
+    color: white;
+    font-size: 50%;
   }
 }

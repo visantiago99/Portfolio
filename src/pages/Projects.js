@@ -7,7 +7,7 @@ import { SiMysql } from "react-icons/si";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="project-column">
       <Header />
       <div className="divProjects">
       <Link to='/'><IoCaretBackCircleSharp className='backIcon' /></Link>
