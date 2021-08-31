@@ -107,7 +107,7 @@ main {
 }
 
 .title {
-  animation: typing 2s steps(22, end), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(22, end);
   animation-delay: 0.2s;
   width: 16ch;
   overflow: hidden;
@@ -130,15 +130,6 @@ main {
   }
   to {
     widht: 100%;
-  }
-}
-
-@keyframes blink {
-  from {
-    border-color: red;
-  }
-  to {
-    border-color: transparent;
   }
 }
 
