@@ -8,11 +8,11 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  color:rgb(26, 28, 43);
+  color: white;
 }
 
 body {
-	background: linear-gradient(-45deg, #FFAAA7, #FFD3B4, #D5ECC2, #98DDCA);
+	background: linear-gradient(-45deg, #082032, #2C394B, #334756, #FF4C29);
 	background-size: 400% 400%;
 	animation: gradient 12s ease infinite;
 	height: 100vh;
@@ -88,29 +88,32 @@ main {
 }
 
 .title-content {
-  margin-left: 40px;
-  margin-top: 50px;
   font-family: 'Noto Sans JP', sans-serif;
   padding: 30px;
+  margin-left: 160px;
+}
+
+.title-content h1 {
+  margin-left: 200px;
+  margin-bottom: 40px;
 }
 
 .title-content p {
-  margin-top:40px;
   font-size: 30px;
 }
 
 .title-content h2 {
-  margin-top:60px;
+  margin-top:30px;
 }
 
 .title {
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   animation-delay: 0.2s;
-  border-right: 2px solid transparent;
   width: 16ch;
   overflow: hidden;
   white-space: nowrap;
 }
+
 
 .spanName {
   color:#FF4C29;
