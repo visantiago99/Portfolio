@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import perfil from '../images/perfil.JPG';
 import { IoIosApps } from 'react-icons/io';
 import inteligencia from '../images/inteligencia.png';
+import codificacao from '../images/codificacao.png';
 
 export default function Home() {
   return (
@@ -18,8 +19,10 @@ export default function Home() {
           <h1 className="title">Hello there! I'm <span className="spanName">Victor Santiago</span></h1>
           <p>Passionate about technology and all of its vertents since a child, now studying everyday to be a Software Engineer</p>
           <br />
-          <img src={inteligencia} alt="prop" width="150px" />
+          <img src={inteligencia} alt="prop" width="80px" />
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>
+          <br />
+          <img src={codificacao} alt="cod" width="220px"/>
         </div>
       </main>
      <section>
@@ -38,6 +41,7 @@ export default function Home() {
      <h2>I'm currently studying on <a href='https://www.betrybe.com/'><span>Trybe</span></a> to be a Full Stack Developer </h2>
      <br />
      <h3 className="linkProjects">You can see some of my projects here <Link to='/projects'><IoIosApps /></Link></h3>
+     <br />
     </div>
   )
 }
