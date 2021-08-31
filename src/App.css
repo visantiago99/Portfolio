@@ -156,7 +156,7 @@ section img {
 
 .divProjects a {
   text-decoration: none;
-  color: white;
+  color:#f5d000;
 }
 
 .divProjects {
@@ -214,10 +214,10 @@ section img {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .headerClass {
     background: #FF4C29;
-    width: 99.5%;
+    width: 100%;
     height: 45px;
     display: flex;
     justify-content: space-between;
@@ -324,7 +324,7 @@ section img {
     background-image: url('./images/rocket.svg');
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: 120px 20px;
+    background-position: 180px 20px;
   }
   
   .divProjects ul {
@@ -345,15 +345,15 @@ section img {
 
   .divProjects a {
     text-decoration: none;
-    color: white;
     font-size: 50%;
+    color:#f5d000;
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .headerClass {
     background: #FF4C29;
-    width: 99.5%;
+    width: 100%;
     height: 45px;
     display: flex;
     justify-content: space-between;
@@ -460,7 +460,7 @@ section img {
     background-image: url('./images/rocket.svg');
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: 120px 20px;
+    background-position: 180px 20px;
   }
   
   .divProjects ul {
@@ -481,7 +481,7 @@ section img {
 
   .divProjects a {
     text-decoration: none;
-    color: white;
+    color:#f5d000;
     font-size: 50%;
   }
 }
