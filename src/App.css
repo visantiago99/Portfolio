@@ -90,7 +90,7 @@ main {
 .title-content {
   font-family: 'Noto Sans JP', sans-serif;
   padding: 30px;
-  margin-left: 160px;
+  margin-left: 70px;
 }
 
 .title-content h1 {
@@ -176,7 +176,9 @@ section img {
 
 .divProjects li {
   list-style: none;
-  margin-left: 360px;
+  margin-left: 450px;
+  display: flex;
+  align-items:flex-start;
 }
 
 .backIcon {
@@ -205,7 +207,7 @@ section img {
 
 .inpt1 textarea {
   width: 300px;
-  height: 300px;
+  height: 150px;
   color:rgb(26, 28, 43);
 }
 
