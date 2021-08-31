@@ -22,7 +22,7 @@ export default function Home() {
           <img src={inteligencia} alt="prop" width="80px" />
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>
           <br />
-          <img src={codificacao} alt="cod" width="220px"/>
+          <img src={codificacao} alt="cod" width="150px"/>
         </div>
       </main>
      <section>

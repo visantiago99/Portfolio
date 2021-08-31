@@ -8,11 +8,11 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  color: white;
+  color:rgb(26, 28, 43);
 }
 
 body {
-	background: linear-gradient(-45deg, #FF4C29, #D5ECC2, #542E71);
+	background: linear-gradient(-45deg, #FFAAA7, #FFD3B4, #D5ECC2, #98DDCA);
 	background-size: 400% 400%;
 	animation: gradient 12s ease infinite;
 	height: 100vh;
